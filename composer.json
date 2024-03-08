@@ -2,18 +2,34 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://devops.twalab.live"
+        }
+    ],
     "require": {
         "php": "^8.0.2",
         "doctrine/dbal": "^3.6",
         "erusev/parsedown-extra": "^0.8.1",
         "guzzlehttp/guzzle": "^7.2",
+        "intervention/image": "2.7",
         "laravel/cashier": "^14.11",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
-        "laravel/ui": "^4.2"
+        "laravel/ui": "^4.2",
+        "livewire/livewire": "^2.12",
+        "lorddashme/php-cryptor": "^2.0",
+        "twa/apilibs": "dev-main",
+        "twa/cms": "dev-main",
+        "twa/enveditor": "dev-main",
+        "twa/htmlhelpers": "dev-master"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -65,6 +81,6 @@
             "pestphp/pest-plugin": true
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
